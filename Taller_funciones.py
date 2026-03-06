@@ -1,4 +1,3 @@
-"""
 #1. Crea una función llamada "edad" que le pide al usuario que ingrese su edad y le muestra un mensaje en la consola que dice "Tu edad es: XX años", donde XX es la edad ingresada por el usuario.
 def edad():
     edad=input("ingrese su edad: ")
@@ -123,7 +122,7 @@ def promedio():
     return promedio
 promedio=promedio()
 print("El promedio de los números es: ", promedio)
-"""
+
 #13 Crea una función llamada "multiplicar_lista" que toma dos parámetros "lista" y "numero" y devuelve una lista donde cada elemento de la lista original es multiplicado por el número.
 def multiplicar_lista():
     lista=[]
@@ -173,3 +172,4 @@ def contar_ocurrencias():
     return ocurrencias
 ocurrencias=contar_ocurrencias()
 print("La palabra aparece ", ocurrencias, " veces en la cadena.")
+
